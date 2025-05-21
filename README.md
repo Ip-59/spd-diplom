@@ -31,10 +31,9 @@
 
 Необходимо разработать backend приложения для социальной сети для обмена фотографиями. Прототип фронтенда приложения на скрине:
 
-![](https://github.com/netology-code/spd-diplom/blob/main/Design.png)
+![](file:///E:/spd-diplom/Design.png)
 
 В этом проекте вы будете работать над API для загрузки публикаций и их фото с возможностью комментировать и ставить лайки.
-
 
 ### Реализация
 
@@ -69,13 +68,15 @@
 
 <details>
   <summary>Подсказки</summary>
-  
+
 * для создания пользователей и получения токенов авторизации можете воспользоваться административной панелью,
 
 * чтобы правильно работали загрузка и отображение фото, не забудьте настроить media и 
-static пути, а также [привязать их в urls](https://docs.djangoproject.com/en/5.0/howto/static-files/#serving-static-files-during-development),
+  static пути, а также [привязать их в urls](https://docs.djangoproject.com/en/5.0/howto/static-files/#serving-static-files-during-development),
+
 * для получения связанных объектов пользуйтесь [related_name](https://django.fun/docs/django/5.0/topics/db/queries/#backwards-related-objects), 
-а для подсчёта количества - используйте метод [count()](https://django.fun/docs/django/5.0/ref/models/querysets/#django.db.models.query.QuerySet.count),
+  а для подсчёта количества - используйте метод [count()](https://django.fun/docs/django/5.0/ref/models/querysets/#django.db.models.query.QuerySet.count),
+
 * для сериализации связанных объектов используйте [вложенную сериализацию](https://ilyachch.gitbook.io/django-rest-framework-russian-documentation/overview/navigaciya-po-api/relations#vlozhennye-otnosheniya)
 
 </details>
