@@ -1,6 +1,8 @@
 .venv/
+social_network/venv
 .vscode/
 .idea/
 __pycache__/
 media/
 Задание на проектирование.md
+README задание.md
